@@ -117,15 +117,18 @@ body {
 }
 
 .content-btn {
+  width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
 .btn {
+  width: 100%;
   text-align: center;
   text-decoration: none;
   font-family: Lato;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 18px;
   color: #fff;
   background-color: #cc6715;
