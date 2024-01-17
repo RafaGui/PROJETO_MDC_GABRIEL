@@ -18,7 +18,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.2;
+  opacity: 0.5;
   filter: blur(2px);
   position: absolute;
   top: 0px;
