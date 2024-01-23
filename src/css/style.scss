@@ -70,12 +70,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    max-width: 500px;
+    max-width: 800px;
     z-index: 9;
 }
 .content-image-logo{
     width: 70%;
-    max-width: 500px;
+    max-width: 300px;
 }
 .content-image-logo img{
     width: 100%;
@@ -83,8 +83,8 @@ body{
 }
 .content-imagem{
     width: 70%;
-    max-width: 500px;
-    margin-bottom: 30px;
+    max-width: 200px;
+    margin-bottom: 15px;
     position: relative;
 }
 .content-imagem::after{
@@ -108,16 +108,34 @@ body{
 }
 .content-text p{
     width: 100%;
-    max-width: 290px;
+    // max-width: 290px;
+    text-transform: uppercase;
+    font-size: 2rem;
     color: var(--color-text);
-    font-size: var(--font-legend-text);
+}
+.content-main-text{
+    color: var(--color-text);
+    font-size: var(--font-size);
+    text-align: center;
+    margin: 10px 0px;
+}
+@media screen and (max-width:530px) {
+    .content-text p{
+        font-size: 1.3rem;
+    }
+    .content-main-text{
+        font-size: 1.2rem;
+    }
 }
 .content-btn{
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
 .btn{
     width: 100%;
     max-width: 400px;
@@ -141,7 +159,10 @@ body{
     transition : .4s linear;
     background-color: #e77426;
     }
-
+    .whats{
+        background-color: #298f1b;
+        box-shadow: 0px 0px 15px #298f1b;
+    }
 ////////////////////////////////////////////////////
 
 .block-main{
@@ -158,9 +179,7 @@ body{
 }
 .local-video{
     z-index: 10;
-    // margin-top: -40px;
     width: 100%;
-    // background-color: #020a0f;
     position: relative;
 }
 @media screen and (max-width:500px) {
@@ -181,12 +200,6 @@ body{
     border-radius: 5px;
     height: 100%;
     border: none;
-}
-.content-main-text{
-    color: var(--color-text);
-    font-size: var(--font-size);
-    text-align: center;
-    margin: 10px 0px;
 }
 //////////////////////////////////////////
 .block-main-bonus{
@@ -269,6 +282,7 @@ body{
 .container-image{
     width: 100%;
     height: 450px;
+    transform: rotate(180deg);
 }
 .container-image img{
     width: 100%;
@@ -309,9 +323,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-@media screen {
-    
-}
 .container-depoiments{ //container
     display: flex;
     // column-gap: 5px;
@@ -322,6 +333,7 @@ body{
 }
 .depoiments img{
     width: 100%;
+    min-width: 350px;
     height: 100%;
     object-fit: cover;
 }
@@ -481,3 +493,114 @@ footer a{
 .setM{
     margin-bottom: 4rem;
 }
+
+.garantided {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .imageGarantided {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .imageGarantided img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .textGaran {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--color-text);
+  }
+  
+  .textGaran h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .contentFooter {
+    text-align: center;
+    background: linear-gradient(to top, #111111, rgba(255, 252, 252, 0.0392156863));
+    color: var(--colorFont);
+    padding: 10px;
+  }
+  
+  .contentFooter h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .contentFooter p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .contentFooter span {
+    font-size: 0.7rem;
+  }
+  
+  .contentFooter span a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .configDets {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .textColor{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .configDets table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0px;
+    color: var(--color-text);
+  }
+  
+  th, td {
+    border: 1px solid #0b2b42;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0b2b42;
+  }
+  
+  details {
+    margin-bottom: 10px;
+    transition: 0.4s linear;
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  details table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  details table th, details table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
