@@ -5,7 +5,7 @@ Type: Landig Page
 Link: <a href="https://rafagui.github.io/PROJETO_MDC_GABRIEL/">Projeto - MDC</a>
 
 <h2>Sobre o Projeto:</h2><br>
-Este projeto, feito exclusivamente a pedido do cliente foi criado com o intuito de realizar a venda de info produtos de sua autoria.
+Este projeto, feito exclusivamente a pedido do cliente, foi criado com o intuito de realizar a venda de info produtos de sua autoria.
 <br>
 
 ```bash(html)
